@@ -1,0 +1,9 @@
+*.class
+*.pyc
+__pycache__/
+.idea/
+.vscode/
+*.log
+dataset/raw/*.csv
+dataset/cleaned/*.csv
+.DS_Store
