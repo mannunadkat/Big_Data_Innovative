@@ -1,0 +1,5 @@
+== YARN nodes ==
+Total Nodes:2
+         Node-Id	     Node-State	Node-Http-Address	Number-of-Running-Containers
+e8fa0dbb44aa:37431	        RUNNING	e8fa0dbb44aa:8042	                           0
+6cb2f39cce7e:41405	        RUNNING	6cb2f39cce7e:8042	                           0

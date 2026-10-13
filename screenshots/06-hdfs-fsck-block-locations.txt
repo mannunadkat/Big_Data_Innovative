@@ -1,0 +1,51 @@
+FSCK started by root (auth:SIMPLE) from /172.18.0.8 for path /demo/wc.txt at Tue Oct 13 07:32:25 UTC 2026
+/demo/wc.txt 10600000 bytes, replicated: replication=2, 11 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741833_1009 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+1. BP-1903237011-172.18.0.2-1791402891331:blk_1073741834_1010 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+2. BP-1903237011-172.18.0.2-1791402891331:blk_1073741835_1011 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+3. BP-1903237011-172.18.0.2-1791402891331:blk_1073741836_1012 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+4. BP-1903237011-172.18.0.2-1791402891331:blk_1073741837_1013 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+5. BP-1903237011-172.18.0.2-1791402891331:blk_1073741838_1014 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+6. BP-1903237011-172.18.0.2-1791402891331:blk_1073741839_1015 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+7. BP-1903237011-172.18.0.2-1791402891331:blk_1073741840_1016 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+8. BP-1903237011-172.18.0.2-1791402891331:blk_1073741841_1017 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+9. BP-1903237011-172.18.0.2-1791402891331:blk_1073741842_1018 len=1048576 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+10. BP-1903237011-172.18.0.2-1791402891331:blk_1073741843_1019 len=114240 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+
+
+Status: HEALTHY
+ Number of data-nodes:	2
+ Number of racks:		1
+ Total dirs:			0
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	10600000 B
+ Total files:	1
+ Total blocks (validated):	11 (avg. block size 963636 B)
+ Minimally replicated blocks:	11 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	2
+ Average block replication:	2.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+FSCK ended at Tue Oct 13 07:32:25 UTC 2026 in 7 milliseconds
+
+
+The filesystem under path '/demo/wc.txt' is HEALTHY

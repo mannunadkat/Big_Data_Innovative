@@ -1,0 +1,3 @@
+Total number of applications (application-types: [], states: [NEW, NEW_SAVING, SUBMITTED, ACCEPTED, RUNNING, FINISHED, FAILED, KILLED] and tags: []):1
+                Application-Id	    Application-Name	    Application-Type	      User	     Queue	             State	       Final-State	       Progress	                       Tracking-URL
+application_1791876482993_0001	          word count	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791876482993_0001

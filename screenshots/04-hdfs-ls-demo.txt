@@ -1,0 +1,2 @@
+Found 1 items
+-rw-r--r--   2 root supergroup     10.1 M 2026-10-13 07:32 /demo/wc.txt

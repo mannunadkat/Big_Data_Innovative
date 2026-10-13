@@ -1,0 +1,7 @@
+airline	200000
+airport	200000
+cancelled	200000
+delay	200000
+flight	200000
+route	200000
+weather	200000
