@@ -42,4 +42,4 @@ cancellation reason, weather delay minutes.
 - [Teammate name] — [role — fill in]
 
 ## Status
-Project kicked off — Phase 1 of 20 (see internal phase plan).
+Phase 4 of 10 complete: data ingested to HDFS and cleaned via Hadoop Streaming.

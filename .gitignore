@@ -7,3 +7,4 @@ __pycache__/
 dataset/raw/*.csv
 dataset/cleaned/*.csv
 .DS_Store
+*.zip

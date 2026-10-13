@@ -1,0 +1,28 @@
+cleaned row count year 2009:
+6414015
+counters year 2009:
+	Cleaning
+		CancelledKept=87038
+		DroppedMissingDelay=15323
+		HeaderSkipped=1
+		ReadRecords=6429339
+		WrittenRecords=6414015
+	File Input Format Counters 
+		Bytes Read=792629798
+	File Output Format Counters 
+		Bytes Written=502146138
+2026-10-13 08:41:19,551 INFO streaming.StreamJob: Output directory: /flights/cleaned/year=2009
+cleaned row count year 2010:
+6434643
+counters year 2010:
+	Cleaning
+		CancelledKept=113255
+		DroppedMissingDelay=15474
+		HeaderSkipped=1
+		ReadRecords=6450118
+		WrittenRecords=6434643
+	File Input Format Counters 
+		Bytes Read=794172704
+	File Output Format Counters 
+		Bytes Written=504370196
+2026-10-13 08:42:54,413 INFO streaming.StreamJob: Output directory: /flights/cleaned/year=2010

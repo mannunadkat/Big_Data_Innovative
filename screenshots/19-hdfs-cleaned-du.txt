@@ -1,0 +1,16 @@
+478.9 M  957.8 M  /flights/cleaned/year=2009
+481.0 M  962.0 M  /flights/cleaned/year=2010
+drwxr-xr-x   - root supergroup          0 2026-10-13 08:41 /flights/cleaned/year=2009
+-rw-r--r--   2 root supergroup   84979838 2026-10-13 08:40 /flights/cleaned/year=2009/part-00000
+-rw-r--r--   2 root supergroup   84763791 2026-10-13 08:40 /flights/cleaned/year=2009/part-00001
+-rw-r--r--   2 root supergroup   84584841 2026-10-13 08:40 /flights/cleaned/year=2009/part-00002
+-rw-r--r--   2 root supergroup   84604865 2026-10-13 08:41 /flights/cleaned/year=2009/part-00003
+-rw-r--r--   2 root supergroup   85291472 2026-10-13 08:41 /flights/cleaned/year=2009/part-00004
+-rw-r--r--   2 root supergroup   77921331 2026-10-13 08:41 /flights/cleaned/year=2009/part-00005
+drwxr-xr-x   - root supergroup          0 2026-10-13 08:42 /flights/cleaned/year=2010
+-rw-r--r--   2 root supergroup   85351411 2026-10-13 08:42 /flights/cleaned/year=2010/part-00000
+-rw-r--r--   2 root supergroup   84986253 2026-10-13 08:42 /flights/cleaned/year=2010/part-00001
+-rw-r--r--   2 root supergroup   84638902 2026-10-13 08:42 /flights/cleaned/year=2010/part-00002
+-rw-r--r--   2 root supergroup   84740357 2026-10-13 08:42 /flights/cleaned/year=2010/part-00003
+-rw-r--r--   2 root supergroup   85792231 2026-10-13 08:42 /flights/cleaned/year=2010/part-00004
+-rw-r--r--   2 root supergroup   78861042 2026-10-13 08:42 /flights/cleaned/year=2010/part-00005
