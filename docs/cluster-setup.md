@@ -30,6 +30,9 @@
 - Result: job_1791876482993_0001 FINISHED / SUCCEEDED; 11 map tasks (one per
   block) + 1 reduce task; 7 distinct words, each counted 200000 times
 - Evidence: screenshots/08 to 10 (plus UI screenshots 11 to 13)
-  - 11 / 11b: NameNode UI overview + summary (2 live nodes, 0 dead)
+  - 11: NameNode UI Datanodes tab (both DataNodes In service, 26 blocks /
+    11.14 MB block pool used on each)
+  - 11a / 11b: NameNode UI overview + summary (2 live nodes, 0 dead)
+  - 11c: NameNode UI Datanode Volume Failures (none reported)
   - 13 / 13b: ResourceManager UI, word count application FINISHED / SUCCEEDED
     (cluster metrics show 2 active nodes)
