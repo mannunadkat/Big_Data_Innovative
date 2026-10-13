@@ -36,3 +36,11 @@
   - 11c: NameNode UI Datanode Volume Failures (none reported)
   - 13 / 13b: ResourceManager UI, word count application FINISHED / SUCCEEDED
     (cluster metrics show 2 active nodes)
+
+## Hive on the Master Node (Phase 5)
+- **Engine**: Apache Hive 3.1.3 installed on the `namenode` master container.
+- **Metastore**: Embedded Apache Derby database residing on a persistent Docker named volume `hive_data` (mounted at `/opt/hive-data`).
+- **Persistence**: Metastore catalog and Hive binaries persist across cluster restarts inside `/opt/hive-data`.
+- **Execution Mode**: Distributed MapReduce on YARN (`mapreduce.framework.name = yarn`).
+- **Interactive Access**: Run `./scripts/hive-exec.sh` from the host repository to launch the Hive CLI or execute inline queries (`./scripts/hive-exec.sh -e "..."`).
+
