@@ -1,0 +1,94 @@
+/opt/hive-data/apache-hive-3.1.3-bin/bin/hive: line 351: ps: command not found
+/opt/hive-data/apache-hive-3.1.3-bin/bin/hive: line 351: ps: command not found
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive-data/apache-hive-3.1.3-bin/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop-3.2.1/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = 023663a1-7112-4285-9a57-cd3d2794706d
+
+Logging initialized using configuration in jar:file:/opt/hive-data/apache-hive-3.1.3-bin/lib/hive-common-3.1.3.jar!/hive-log4j2.properties Async: true
+Hive Session ID = 0626ad2a-8af3-4acd-80c6-0c9546fb7708
+OK
+Time taken: 0.433 seconds
+Query ID = root_20261013101901_1d40d33f-a9c1-4dfd-a62b-fa92301e8706
+Total jobs = 4
+Launching Job 1 out of 4
+Number of reduce tasks not specified. Estimated from input data size: 4
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1791880720726_0019, Tracking URL = http://resourcemanager:8088/proxy/application_1791880720726_0019/
+Kill Command = /opt/hadoop-3.2.1/bin/mapred job  -kill job_1791880720726_0019
+Hadoop job information for Stage-1: number of mappers: 3; number of reducers: 4
+2026-10-13 10:19:12,301 Stage-1 map = 0%,  reduce = 0%
+2026-10-13 10:19:26,559 Stage-1 map = 67%,  reduce = 0%, Cumulative CPU 14.52 sec
+2026-10-13 10:19:27,632 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 21.8 sec
+2026-10-13 10:19:35,418 Stage-1 map = 100%,  reduce = 50%, Cumulative CPU 30.97 sec
+2026-10-13 10:19:36,476 Stage-1 map = 100%,  reduce = 75%, Cumulative CPU 33.85 sec
+2026-10-13 10:19:40,648 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 36.09 sec
+MapReduce Total cumulative CPU time: 36 seconds 90 msec
+Ended Job = job_1791880720726_0019
+Launching Job 2 out of 4
+Number of reduce tasks not specified. Estimated from input data size: 4
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1791880720726_0020, Tracking URL = http://resourcemanager:8088/proxy/application_1791880720726_0020/
+Kill Command = /opt/hadoop-3.2.1/bin/mapred job  -kill job_1791880720726_0020
+Hadoop job information for Stage-4: number of mappers: 3; number of reducers: 4
+2026-10-13 10:19:54,904 Stage-4 map = 0%,  reduce = 0%
+2026-10-13 10:20:05,341 Stage-4 map = 67%,  reduce = 0%, Cumulative CPU 11.5 sec
+2026-10-13 10:20:07,430 Stage-4 map = 100%,  reduce = 0%, Cumulative CPU 16.65 sec
+2026-10-13 10:20:12,662 Stage-4 map = 100%,  reduce = 25%, Cumulative CPU 19.46 sec
+2026-10-13 10:20:13,694 Stage-4 map = 100%,  reduce = 75%, Cumulative CPU 24.52 sec
+2026-10-13 10:20:17,846 Stage-4 map = 100%,  reduce = 100%, Cumulative CPU 26.76 sec
+MapReduce Total cumulative CPU time: 26 seconds 760 msec
+Ended Job = job_1791880720726_0020
+Launching Job 3 out of 4
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1791880720726_0021, Tracking URL = http://resourcemanager:8088/proxy/application_1791880720726_0021/
+Kill Command = /opt/hadoop-3.2.1/bin/mapred job  -kill job_1791880720726_0021
+Hadoop job information for Stage-2: number of mappers: 2; number of reducers: 1
+2026-10-13 10:20:31,153 Stage-2 map = 0%,  reduce = 0%
+2026-10-13 10:20:37,407 Stage-2 map = 50%,  reduce = 0%, Cumulative CPU 1.87 sec
+2026-10-13 10:20:39,504 Stage-2 map = 100%,  reduce = 0%, Cumulative CPU 3.37 sec
+2026-10-13 10:20:42,645 Stage-2 map = 100%,  reduce = 100%, Cumulative CPU 4.54 sec
+MapReduce Total cumulative CPU time: 4 seconds 540 msec
+Ended Job = job_1791880720726_0021
+Launching Job 4 out of 4
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1791880720726_0022, Tracking URL = http://resourcemanager:8088/proxy/application_1791880720726_0022/
+Kill Command = /opt/hadoop-3.2.1/bin/mapred job  -kill job_1791880720726_0022
+Hadoop job information for Stage-3: number of mappers: 1; number of reducers: 1
+2026-10-13 10:20:55,759 Stage-3 map = 0%,  reduce = 0%
+2026-10-13 10:21:00,926 Stage-3 map = 100%,  reduce = 0%, Cumulative CPU 0.98 sec
+2026-10-13 10:21:07,093 Stage-3 map = 100%,  reduce = 100%, Cumulative CPU 2.23 sec
+MapReduce Total cumulative CPU time: 2 seconds 230 msec
+Ended Job = job_1791880720726_0022
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 3  Reduce: 4   Cumulative CPU: 36.09 sec   HDFS Read: 993754744 HDFS Write: 5257 SUCCESS
+Stage-Stage-4: Map: 3  Reduce: 4   Cumulative CPU: 26.76 sec   HDFS Read: 993751287 HDFS Write: 5257 SUCCESS
+Stage-Stage-2: Map: 2  Reduce: 1   Cumulative CPU: 4.54 sec   HDFS Read: 23806 HDFS Write: 7028 SUCCESS
+Stage-Stage-3: Map: 1  Reduce: 1   Cumulative CPU: 2.23 sec   HDFS Read: 16905 HDFS Write: 1381 SUCCESS
+Total MapReduce CPU Time Spent: 1 minutes 9 seconds 620 msec
+OK
+Time taken: 126.723 seconds, Fetched: 25 row(s)
