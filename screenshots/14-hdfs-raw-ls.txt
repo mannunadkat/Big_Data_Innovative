@@ -1,0 +1,4 @@
+drwxr-xr-x   - root supergroup          0 2026-10-13 08:14 /flights/raw/year=2009
+-rw-r--r--   2 root supergroup    755.9 M 2026-10-13 08:14 /flights/raw/year=2009/2009.csv
+drwxr-xr-x   - root supergroup          0 2026-10-13 08:14 /flights/raw/year=2010
+-rw-r--r--   2 root supergroup    757.4 M 2026-10-13 08:14 /flights/raw/year=2010/2010.csv

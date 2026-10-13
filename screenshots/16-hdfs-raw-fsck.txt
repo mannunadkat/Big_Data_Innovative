@@ -1,0 +1,57 @@
+FSCK started by root (auth:SIMPLE) from /172.18.0.8 for path /flights/raw at Tue Oct 13 08:15:58 UTC 2026
+/flights/raw <dir>
+/flights/raw/year=2009 <dir>
+/flights/raw/year=2009/2009.csv 792609318 bytes, replicated: replication=2, 6 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741861_1037 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+1. BP-1903237011-172.18.0.2-1791402891331:blk_1073741862_1038 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+2. BP-1903237011-172.18.0.2-1791402891331:blk_1073741863_1039 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+3. BP-1903237011-172.18.0.2-1791402891331:blk_1073741864_1040 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+4. BP-1903237011-172.18.0.2-1791402891331:blk_1073741865_1041 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+5. BP-1903237011-172.18.0.2-1791402891331:blk_1073741866_1042 len=121520678 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+
+/flights/raw/year=2010 <dir>
+/flights/raw/year=2010/2010.csv 794152224 bytes, replicated: replication=2, 6 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741867_1043 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+1. BP-1903237011-172.18.0.2-1791402891331:blk_1073741868_1044 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+2. BP-1903237011-172.18.0.2-1791402891331:blk_1073741869_1045 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+3. BP-1903237011-172.18.0.2-1791402891331:blk_1073741870_1046 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+4. BP-1903237011-172.18.0.2-1791402891331:blk_1073741871_1047 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+5. BP-1903237011-172.18.0.2-1791402891331:blk_1073741872_1048 len=123063584 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+
+
+Status: HEALTHY
+ Number of data-nodes:	2
+ Number of racks:		1
+ Total dirs:			3
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	1586761542 B
+ Total files:	2
+ Total blocks (validated):	12 (avg. block size 132230128 B)
+ Minimally replicated blocks:	12 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	2
+ Average block replication:	2.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+FSCK ended at Tue Oct 13 08:15:58 UTC 2026 in 14 milliseconds
+
+
+The filesystem under path '/flights/raw' is HEALTHY
