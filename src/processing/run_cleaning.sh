@@ -13,6 +13,7 @@ for y in $years; do
   docker exec namenode hdfs dfs -rm -r -f /flights/cleaned/year=$y
   docker exec namenode hadoop jar $JAR \
     -D mapreduce.job.reduces=0 \
+    -D mapreduce.output.textoutputformat.separator="" \
     -D mapreduce.job.name="flight-clean-$y" \
     -files /tmp/clean_mapper.py \
     -mapper "python3 clean_mapper.py" \

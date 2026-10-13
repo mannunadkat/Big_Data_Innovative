@@ -1,0 +1,28 @@
+/opt/hive-data/apache-hive-3.1.3-bin/bin/hive: line 351: ps: command not found
+/opt/hive-data/apache-hive-3.1.3-bin/bin/hive: line 351: ps: command not found
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive-data/apache-hive-3.1.3-bin/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop-3.2.1/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = a4df0444-7056-461a-b13e-68e158be7aff
+
+Logging initialized using configuration in jar:file:/opt/hive-data/apache-hive-3.1.3-bin/lib/hive-common-3.1.3.jar!/hive-log4j2.properties Async: true
+Hive Session ID = 2d066cd7-2392-479c-85db-31a14097b494
+OK
+Time taken: 0.616 seconds
+OK
+Time taken: 0.069 seconds
+OK
+Time taken: 0.098 seconds
+OK
+Time taken: 0.284 seconds
+OK
+Partitions not in metastore:	flights_cleaned:year=2009	flights_cleaned:year=2010
+Repair: Added partition to metastore flights_cleaned:year=2010
+Repair: Added partition to metastore flights_cleaned:year=2009
+Time taken: 0.782 seconds, Fetched: 3 row(s)
+OK
+Time taken: 0.032 seconds
+OK
+Time taken: 0.092 seconds

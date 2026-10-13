@@ -4,6 +4,7 @@ __pycache__/
 .idea/
 .vscode/
 *.log
+!screenshots/hive-logs/*.log
 dataset/raw/*.csv
 dataset/cleaned/*.csv
 .DS_Store

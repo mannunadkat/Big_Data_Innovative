@@ -10,6 +10,7 @@ services:
       - "9000:9000"
     volumes:
       - namenode:/hadoop/dfs/name
+      - hive_data:/opt/hive-data
     environment:
       - CLUSTER_NAME=bigdata-flight-delay
     env_file:
@@ -94,3 +95,4 @@ volumes:
   datanode1:
   datanode2:
   hadoop_historyserver:
+  hive_data:

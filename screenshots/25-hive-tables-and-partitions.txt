@@ -1,0 +1,68 @@
+carriers_ref
+flights_cleaned
+year=2009
+year=2010
+# col_name            	data_type           	comment             
+fl_date             	string              	                    
+flight_year         	int                 	                    
+flight_month        	int                 	                    
+day_of_month        	int                 	                    
+day_of_week         	int                 	                    
+carrier             	string              	                    
+flight_num          	int                 	                    
+origin              	string              	                    
+dest                	string              	                    
+crs_dep_time        	int                 	                    
+dep_hour            	int                 	                    
+dep_delay           	int                 	                    
+arr_delay           	int                 	                    
+cancelled           	int                 	                    
+cancellation_code   	string              	                    
+diverted            	int                 	                    
+distance            	int                 	                    
+carrier_delay       	int                 	                    
+weather_delay       	int                 	                    
+nas_delay           	int                 	                    
+security_delay      	int                 	                    
+late_aircraft_delay 	int                 	                    
+is_delayed          	int                 	                    
+	 	 
+# Partition Information	 	 
+# col_name            	data_type           	comment             
+year                	int                 	                    
+	 	 
+# Detailed Table Information	 	 
+Database:           	flightdb            	 
+OwnerType:          	USER                	 
+Owner:              	root                	 
+CreateTime:         	Tue Oct 13 09:53:17 UTC 2026	 
+LastAccessTime:     	UNKNOWN             	 
+Retention:          	0                   	 
+Location:           	hdfs://namenode:9000/flights/cleaned	 
+Table Type:         	EXTERNAL_TABLE      	 
+Table Parameters:	 	 
+	EXTERNAL            	TRUE                
+	bucketing_version   	2                   
+	numFiles            	0                   
+	numPartitions       	2                   
+	numRows             	0                   
+	rawDataSize         	0                   
+	totalSize           	0                   
+	transient_lastDdlTime	1791885197          
+	 	 
+# Storage Information	 	 
+SerDe Library:      	org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe	 
+InputFormat:        	org.apache.hadoop.mapred.TextInputFormat	 
+OutputFormat:       	org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat	 
+Compressed:         	No                  	 
+Num Buckets:        	-1                  	 
+Bucket Columns:     	[]                  	 
+Sort Columns:       	[]                  	 
+Storage Desc Params:	 	 
+	field.delim         	,                   
+	serialization.format	,                   
+9E	Pinnacle Airlines
+AA	American Airlines
+AS	Alaska Airlines
+B6	JetBlue Airways
+CO	Continental Airlines
