@@ -16,8 +16,10 @@ Apache Spark and Apache Pig are intentionally NOT used in this implementation.
 ## Tech Stack
 - Hadoop HDFS — distributed storage
 - Hadoop MapReduce (Java / Hadoop Streaming) — distributed processing and data cleaning
+- Hadoop MapReduce (custom Java job in src/processing/mapreduce)
 - Apache Hive — SQL-style analytics on HDFS data
 - 3-node cluster: 1 master (NameNode + ResourceManager), 2 workers (DataNode + NodeManager)
+
 
 ## Dataset
 US DOT Airline On-Time Performance dataset (source: [add exact Kaggle/DOT link here]).
@@ -42,13 +44,10 @@ cancellation reason, weather delay minutes.
 - [Teammate name] — [role — fill in]
 
 ## Status
-Phase 6 of 10 complete: time, route, cancellation and weather analytics on Hive/YARN.
-- Full writeup & findings: [`docs/time-route-cancellation-weather-analytics.md`](docs/time-route-cancellation-weather-analytics.md)
+Phase 7 of 10 complete: custom Java MapReduce job on the cluster, cross-checked against Hive.
+- Custom MapReduce documentation: [`docs/custom-mapreduce-job.md`](docs/custom-mapreduce-job.md)
+- Output CSV dataset: [`output/mapreduce/carrier_month_delay.csv`](output/mapreduce/carrier_month_delay.csv)
+- Phase 6 time, route, cancellation, weather writeup: [`docs/time-route-cancellation-weather-analytics.md`](docs/time-route-cancellation-weather-analytics.md)
 - Phase 5 Hive setup & airline/airport writeup: [`docs/hive-and-airline-airport-analytics.md`](docs/hive-and-airline-airport-analytics.md)
-- Generated CSV datasets:
-  - [`output/time_analysis/`](output/time_analysis/) — Delay by month, year-month, day of week, and departure hour
-  - [`output/route_analysis/`](output/route_analysis/) — Worst delayed routes and busiest routes
-  - [`output/cancellation_analysis/`](output/cancellation_analysis/) — Cancellation by reason, carrier, airport, and month
-  - [`output/weather_analysis/`](output/weather_analysis/) — Weather delay intensity by airport and monthly distribution
-  - [`output/airline_airport/`](output/airline_airport/) — Phase 5 airline and airport delay summaries
+
 
