@@ -18,6 +18,7 @@ Apache Spark and Apache Pig are intentionally NOT used in this implementation.
 - Hadoop MapReduce (Java / Hadoop Streaming) — distributed processing and data cleaning
 - Hadoop MapReduce (custom Java job in src/processing/mapreduce)
 - Apache Hive — SQL-style analytics on HDFS data
+- Hive-based delay-probability model (Hadoop-only substitute for Spark MLlib)
 - 3-node cluster: 1 master (NameNode + ResourceManager), 2 workers (DataNode + NodeManager)
 
 
@@ -44,7 +45,9 @@ cancellation reason, weather delay minutes.
 - [Teammate name] — [role — fill in]
 
 ## Status
-Phase 7 of 10 complete: custom Java MapReduce job on the cluster, cross-checked against Hive.
+Phase 8 of 10 complete: train/validation/test split and Hive delay-probability model built on HDFS.
+- Prediction model design & build documentation: [`docs/prediction-model-design.md`](docs/prediction-model-design.md)
+- Prediction model outputs and reports: [`output/prediction_model/`](output/prediction_model/)
 - Custom MapReduce documentation: [`docs/custom-mapreduce-job.md`](docs/custom-mapreduce-job.md)
 - Output CSV dataset: [`output/mapreduce/carrier_month_delay.csv`](output/mapreduce/carrier_month_delay.csv)
 - Phase 6 time, route, cancellation, weather writeup: [`docs/time-route-cancellation-weather-analytics.md`](docs/time-route-cancellation-weather-analytics.md)
