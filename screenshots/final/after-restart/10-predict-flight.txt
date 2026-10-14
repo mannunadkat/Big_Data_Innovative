@@ -1,0 +1,6 @@
+Flight: HA OGG -> HNL, month 9, scheduled departure hour 13 (time bucket 3)
+Model level used: L1 (based on 432 historical flights)
+Estimated probability of arriving 15+ minutes late: 6.0%
+Decision threshold (chosen on validation data): 0.18
+Prediction: LIKELY ON TIME
+Note: a statistical estimate from historical frequencies, not a guarantee.

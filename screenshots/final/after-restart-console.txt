@@ -1,0 +1,113 @@
+Final verification [after-restart] at 2026-10-14 23:46:15
+--- containers ---
+NAMES             STATUS                   PORTS
+nodemanager1      Up 3 minutes (healthy)   8042/tcp
+nodemanager2      Up 4 minutes (healthy)   8042/tcp
+resourcemanager   Up 3 minutes (healthy)   0.0.0.0:8088->8088/tcp, [::]:8088->8088/tcp
+historyserver     Up 4 minutes (healthy)   0.0.0.0:8188->8188/tcp, [::]:8188->8188/tcp
+datanode2         Up 4 minutes (healthy)   9864/tcp
+datanode1         Up 4 minutes (healthy)   9864/tcp
+namenode          Up 4 minutes (healthy)   0.0.0.0:9000->9000/tcp, [::]:9000->9000/tcp, 0.0.0.0:9870->9870/tcp, [::]:9870->9870/tcp
+OK   all 7 cluster containers are up
+--- HDFS cluster status ---
+Configured Capacity: 970947969024 (904.27 GB)
+DFS Used: 6845300848 (6.38 GB)
+DFS Used%: 0.76%
+Live datanodes (2):
+Name: 172.18.0.3:9866 (datanode2.config_default)
+Hostname: 8aa794adea16
+Configured Capacity: 485473984512 (452.13 GB)
+DFS Used: 3340406840 (3.11 GB)
+DFS Used%: 0.69%
+Name: 172.18.0.6:9866 (datanode1.config_default)
+Hostname: 905496119cf6
+Configured Capacity: 485473984512 (452.13 GB)
+DFS Used: 3504894008 (3.26 GB)
+DFS Used%: 0.72%
+OK   HDFS reports 2 live DataNodes
+OK   both DataNodes hold data (DFS Used > 0)
+--- YARN cluster status ---
+2026-10-14 18:16:19,201 INFO client.RMProxy: Connecting to ResourceManager at resourcemanager/172.18.0.5:8032
+Total Nodes:2
+         Node-Id	     Node-State	Node-Http-Address	Number-of-Running-Containers
+d79d4a2fbb38:34867	        RUNNING	d79d4a2fbb38:8042	                           0
+d1cacfdf72b3:38385	        RUNNING	d1cacfdf72b3:8042	                           0
+OK   YARN reports 2 RUNNING NodeManagers
+--- daemons per node (jps) ---
+== namenode ==
+741 Jps
+366 NameNode
+== resourcemanager ==
+293 ResourceManager
+680 Jps
+== historyserver ==
+457 Jps
+300 ApplicationHistoryServer
+== datanode1 ==
+497 Jps
+306 DataNode
+== datanode2 ==
+498 Jps
+306 DataNode
+== nodemanager1 ==
+515 Jps
+297 NodeManager
+== nodemanager2 ==
+515 Jps
+297 NodeManager
+OK   daemons: 1 NameNode, 2 DataNodes, 1 ResourceManager, 2 NodeManagers
+--- storage distribution ---
+947.6 M  1.9 G   /flights/cleaned
+20.2 K   40.5 K  /flights/mr_output
+1.5 G    3.0 G   /flights/raw
+465      930     /flights/reference
+Status: HEALTHY
+ Number of data-nodes:	2
+ Total blocks (validated):	27 (avg. block size 95572237 B)
+ Under-replicated blocks:	0 (0.0 %)
+ Default replication factor:	2
+ Average block replication:	2.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+OK   fsck: /flights is HEALTHY
+OK   average block replication 2.0
+--- Hive tables ---
+carriers_ref
+flights_cleaned
+flights_scored
+flights_split
+model_global
+model_l1
+model_l2
+model_l3
+model_l4
+OK   Hive table flights_cleaned exists
+OK   Hive table carriers_ref exists
+OK   Hive table flights_split exists
+OK   Hive table model_l1 exists
+OK   Hive table model_l2 exists
+OK   Hive table model_l3 exists
+OK   Hive table model_l4 exists
+OK   Hive table model_global exists
+OK   Hive table flights_scored exists
+--- row counts: Hive vs the committed phase 5 reference ---
+data_year	rows_in_hive	cancelled_rows	delayed_rows
+2009	6414015	87038	1170501
+2010	6434643	113255	1174884
+OK   per-year row, cancelled and delayed counts equal the phase 5 reference
+--- reproducibility: re-run one analytics query and compare with the committed CSV ---
+OK   airline_delay_summary re-run is identical to the committed output (line order ignored)
+--- prediction check: single-flight predictor vs the committed demo ---
+Flight: HA OGG -> HNL, month 9, scheduled departure hour 13 (time bucket 3)
+Model level used: L1 (based on 432 historical flights)
+Estimated probability of arriving 15+ minutes late: 6.0%
+Decision threshold (chosen on validation data): 0.18
+Prediction: LIKELY ON TIME
+Note: a statistical estimate from historical frequencies, not a guarantee.
+OK   predictor output equals the committed demo 1
+
+ALL CHECKS PASSED [after-restart]

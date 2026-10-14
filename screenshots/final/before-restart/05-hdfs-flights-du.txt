@@ -1,0 +1,4 @@
+947.6 M  1.9 G   /flights/cleaned
+20.2 K   40.5 K  /flights/mr_output
+1.5 G    3.0 G   /flights/raw
+465      930     /flights/reference

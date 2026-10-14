@@ -1,0 +1,5 @@
+2026-10-14 18:16:19,201 INFO client.RMProxy: Connecting to ResourceManager at resourcemanager/172.18.0.5:8032
+Total Nodes:2
+         Node-Id	     Node-State	Node-Http-Address	Number-of-Running-Containers
+d79d4a2fbb38:34867	        RUNNING	d79d4a2fbb38:8042	                           0
+d1cacfdf72b3:38385	        RUNNING	d1cacfdf72b3:8042	                           0

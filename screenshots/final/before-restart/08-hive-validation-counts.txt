@@ -1,0 +1,3 @@
+data_year	rows_in_hive	cancelled_rows	delayed_rows
+2009	6414015	87038	1170501
+2010	6434643	113255	1174884

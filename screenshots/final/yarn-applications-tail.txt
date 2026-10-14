@@ -1,0 +1,12 @@
+application_1791880720726_0037	SELECT t.cancellation_code AS cancell...DESC (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0037
+application_1791880720726_0036	SELECT origin,
+       dest,
+       CONC...25 (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0036
+application_1791880720726_0043	SELECT origin AS airport,
+       COUNT(...25 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0043
+application_1791880720726_0042	SELECT f.carrier AS carrier,
+       C...DESC (Stage-3)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0042
+application_1791880720726_0041	SELECT f.carrier AS carrier,
+       C...DESC (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0041
+application_1791880720726_0040	SELECT f.carrier AS carrier,
+       C...DESC (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0040

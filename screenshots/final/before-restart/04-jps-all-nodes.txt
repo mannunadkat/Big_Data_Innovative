@@ -1,0 +1,21 @@
+== namenode ==
+19018 Jps
+378 NameNode
+== resourcemanager ==
+293 ResourceManager
+2075 Jps
+== historyserver ==
+300 ApplicationHistoryServer
+7485 Jps
+== datanode1 ==
+306 DataNode
+12502 Jps
+== datanode2 ==
+306 DataNode
+12532 Jps
+== nodemanager1 ==
+295 NodeManager
+32347 Jps
+== nodemanager2 ==
+294 NodeManager
+11723 Jps

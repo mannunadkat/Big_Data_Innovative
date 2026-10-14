@@ -1,0 +1,12 @@
+Status: HEALTHY
+ Number of data-nodes:	2
+ Total blocks (validated):	27 (avg. block size 95572237 B)
+ Under-replicated blocks:	0 (0.0 %)
+ Default replication factor:	2
+ Average block replication:	2.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0

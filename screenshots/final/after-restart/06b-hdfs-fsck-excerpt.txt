@@ -1,0 +1,60 @@
+Connecting to namenode via http://namenode:9870/fsck?ugi=root&files=1&blocks=1&locations=1&path=%2Fflights
+FSCK started by root (auth:SIMPLE) from /172.18.0.2 for path /flights at Wed Oct 14 18:16:27 UTC 2026
+/flights <dir>
+/flights/cleaned <dir>
+/flights/cleaned/year=2009 <dir>
+/flights/cleaned/year=2009/_SUCCESS 0 bytes, replicated: replication=2, 0 block(s):  OK
+
+/flights/cleaned/year=2009/part-00000 83891444 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741977_1153 len=83891444 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/flights/cleaned/year=2009/part-00001 83679026 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741978_1154 len=83679026 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/flights/cleaned/year=2009/part-00002 83501853 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741979_1155 len=83501853 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/flights/cleaned/year=2009/part-00003 83521885 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741980_1156 len=83521885 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/flights/cleaned/year=2009/part-00004 84200177 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741981_1157 len=84200177 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/flights/cleaned/year=2009/part-00005 76937738 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741982_1158 len=76937738 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/flights/cleaned/year=2010 <dir>
+/flights/cleaned/year=2010/_SUCCESS 0 bytes, replicated: replication=2, 0 block(s):  OK
+
+/flights/cleaned/year=2010/part-00000 84257078 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741983_1159 len=84257078 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/flights/cleaned/year=2010/part-00001 83898888 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741984_1160 len=83898888 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/flights/cleaned/year=2010/part-00002 83556096 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741985_1161 len=83556096 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/flights/cleaned/year=2010/part-00003 83656426 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741986_1162 len=83656426 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/flights/cleaned/year=2010/part-00004 84702105 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741987_1163 len=84702105 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/flights/cleaned/year=2010/part-00005 77864960 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741988_1164 len=77864960 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/flights/mr_output <dir>
+/flights/mr_output/carrier_month_delay <dir>
+/flights/mr_output/carrier_month_delay/_SUCCESS 0 bytes, replicated: replication=2, 0 block(s):  OK
+
+/flights/mr_output/carrier_month_delay/part-r-00000 10083 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073742975_2151 len=10083 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/flights/mr_output/carrier_month_delay/part-r-00001 10648 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073742976_2152 len=10648 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/flights/raw <dir>
+/flights/raw/year=2009 <dir>
+/flights/raw/year=2009/2009.csv 792609318 bytes, replicated: replication=2, 6 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073741861_1037 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.6:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
