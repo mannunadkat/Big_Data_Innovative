@@ -44,3 +44,6 @@
 - **Execution Mode**: Distributed MapReduce on YARN (`mapreduce.framework.name = yarn`).
 - **Interactive Access**: Run `./scripts/hive-exec.sh` from the host repository to launch the Hive CLI or execute inline queries (`./scripts/hive-exec.sh -e "..."`).
 
+## Final Verification
+The end-to-end cluster health, daemon counts, HDFS storage distribution, Hive catalog, and analytical reproducibility are verified via [`scripts/final-verification.sh`](../scripts/final-verification.sh). Console outputs and cluster state dumps before and after cluster restarts are captured under [`screenshots/final/`](../screenshots/final/) (`before-restart` and `after-restart`), confirming full data persistence and distributed execution.
+
