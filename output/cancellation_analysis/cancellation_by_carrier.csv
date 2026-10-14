@@ -1,0 +1,20 @@
+carrier,carrier_name,total_flights,cancelled_flights,cancel_pct
+OH,Comair,297910,10753,3.61
+MQ,American Eagle Airlines,870480,22770,2.62
+9E,Pinnacle Airlines,522122,12247,2.35
+EV,Atlantic Southeast Airlines,617178,13831,2.24
+YV,Mesa Airlines,416882,8083,1.94
+XE,ExpressJet Airlines,692345,13307,1.92
+B6,JetBlue Airways,394568,6711,1.70
+DL,Delta Air Lines,1156334,19656,1.70
+OO,SkyWest Airlines,1142715,19355,1.69
+AA,American Airlines,1087200,18337,1.69
+UA,United Air Lines,717834,11223,1.56
+US,US Airways,817702,11337,1.39
+FL,AirTran Airways,497539,4570,0.92
+WN,Southwest Airlines,2249366,20002,0.89
+AS,Alaska Airlines,273273,1971,0.72
+CO,Continental Airlines,494363,3330,0.67
+NW,Northwest Airlines,291856,1759,0.60
+F9,Frontier Airlines,168713,841,0.50
+HA,Hawaiian Airlines,140278,210,0.15

@@ -1,0 +1,5 @@
+cancellation_code,reason,cancelled_flights,pct_of_cancellations
+B,Weather,93158,46.51
+A,Carrier,77724,38.81
+C,National Air System,29352,14.65
+D,Security,59,0.03

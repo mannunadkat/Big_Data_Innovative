@@ -1,0 +1,55 @@
+/opt/hive-data/apache-hive-3.1.3-bin/bin/hive: line 351: ps: command not found
+/opt/hive-data/apache-hive-3.1.3-bin/bin/hive: line 351: ps: command not found
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive-data/apache-hive-3.1.3-bin/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop-3.2.1/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = c279f5e3-d22d-4ee8-8e5e-420bdfa52523
+
+Logging initialized using configuration in jar:file:/opt/hive-data/apache-hive-3.1.3-bin/lib/hive-common-3.1.3.jar!/hive-log4j2.properties Async: true
+Hive Session ID = afa93010-b432-40ce-a760-35aebdf9ffa2
+OK
+Time taken: 0.496 seconds
+Query ID = root_20261014072014_8e2ff7b7-8574-452b-982b-e18abcb334d4
+Total jobs = 2
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 4
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1791880720726_0043, Tracking URL = http://resourcemanager:8088/proxy/application_1791880720726_0043/
+Kill Command = /opt/hadoop-3.2.1/bin/mapred job  -kill job_1791880720726_0043
+Hadoop job information for Stage-1: number of mappers: 3; number of reducers: 4
+2026-10-14 07:20:25,509 Stage-1 map = 0%,  reduce = 0%
+2026-10-14 07:20:34,930 Stage-1 map = 67%,  reduce = 0%, Cumulative CPU 9.56 sec
+2026-10-14 07:20:36,999 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 13.75 sec
+2026-10-14 07:20:43,364 Stage-1 map = 100%,  reduce = 75%, Cumulative CPU 21.67 sec
+2026-10-14 07:20:47,612 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 23.71 sec
+MapReduce Total cumulative CPU time: 23 seconds 710 msec
+Ended Job = job_1791880720726_0043
+Launching Job 2 out of 2
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1791880720726_0044, Tracking URL = http://resourcemanager:8088/proxy/application_1791880720726_0044/
+Kill Command = /opt/hadoop-3.2.1/bin/mapred job  -kill job_1791880720726_0044
+Hadoop job information for Stage-2: number of mappers: 1; number of reducers: 1
+2026-10-14 07:21:01,942 Stage-2 map = 0%,  reduce = 0%
+2026-10-14 07:21:07,174 Stage-2 map = 100%,  reduce = 0%, Cumulative CPU 1.19 sec
+2026-10-14 07:21:12,400 Stage-2 map = 100%,  reduce = 100%, Cumulative CPU 2.49 sec
+MapReduce Total cumulative CPU time: 2 seconds 490 msec
+Ended Job = job_1791880720726_0044
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 3  Reduce: 4   Cumulative CPU: 23.71 sec   HDFS Read: 993742035 HDFS Write: 4813 SUCCESS
+Stage-Stage-2: Map: 1  Reduce: 1   Cumulative CPU: 2.49 sec   HDFS Read: 14498 HDFS Write: 983 SUCCESS
+Total MapReduce CPU Time Spent: 26 seconds 200 msec
+OK
+Time taken: 58.601 seconds, Fetched: 25 row(s)
