@@ -1,0 +1,4 @@
+Found 3 items
+-rw-r--r--   2 root supergroup          0 2026-10-14 09:22 /flights/mr_output/carrier_month_delay/_SUCCESS
+-rw-r--r--   2 root supergroup      9.8 K 2026-10-14 09:22 /flights/mr_output/carrier_month_delay/part-r-00000
+-rw-r--r--   2 root supergroup     10.4 K 2026-10-14 09:22 /flights/mr_output/carrier_month_delay/part-r-00001

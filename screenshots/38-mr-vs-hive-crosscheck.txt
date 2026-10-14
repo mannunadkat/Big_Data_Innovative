@@ -1,0 +1,5 @@
+Hive cross-check query elapsed seconds: 41
+MapReduce groups (rows):      425
+Hive groups (rows):           425
+Compared columns: carrier, year, month, total_flights, cancelled_flights, operated_flights, delayed_flights, sum_arr_delay_min
+RESULT: MATCH - the MapReduce output is identical to the Hive output

@@ -1,0 +1,19 @@
+2026-10-14 09:24:35,723 INFO client.RMProxy: Connecting to ResourceManager at resourcemanager/172.18.0.2:8032
+Application State: Completed.
+2026-10-14 09:24:36,385 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2026-10-14 09:24:36,444 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+Container: container_e02_1791880720726_0053_01_000013 on 6cb2f39cce7e_44715
+Container: container_e02_1791880720726_0053_01_000012 on 6cb2f39cce7e_44715
+Container: container_e02_1791880720726_0053_01_000011 on 6cb2f39cce7e_44715
+Container: container_e02_1791880720726_0053_01_000010 on 6cb2f39cce7e_44715
+Container: container_e02_1791880720726_0053_01_000009 on 6cb2f39cce7e_44715
+Container: container_e02_1791880720726_0053_01_000007 on 6cb2f39cce7e_44715
+Container: container_e02_1791880720726_0053_01_000006 on 6cb2f39cce7e_44715
+Container: container_e02_1791880720726_0053_01_000004 on 6cb2f39cce7e_44715
+Container: container_e02_1791880720726_0053_01_000003 on 6cb2f39cce7e_44715
+Container: container_e02_1791880720726_0053_01_000015 on 6cb2f39cce7e_44715
+Container: container_e02_1791880720726_0053_01_000014 on 6cb2f39cce7e_44715
+Container: container_e02_1791880720726_0053_01_000008 on e8fa0dbb44aa_41485
+Container: container_e02_1791880720726_0053_01_000005 on e8fa0dbb44aa_41485
+Container: container_e02_1791880720726_0053_01_000002 on e8fa0dbb44aa_41485
+Container: container_e02_1791880720726_0053_01_000001 on e8fa0dbb44aa_41485
