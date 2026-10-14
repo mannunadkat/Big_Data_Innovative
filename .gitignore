@@ -9,3 +9,4 @@ dataset/raw/*.csv
 dataset/cleaned/*.csv
 .DS_Store
 *.zip
+.venv-charts/
