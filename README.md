@@ -42,13 +42,13 @@ cancellation reason, weather delay minutes.
 - [Teammate name] — [role — fill in]
 
 ## Status
-Phase 5 of 10 complete: Apache Hive 3.1.3 installed on the master node (YARN / MapReduce engine), external partitioned tables created over 12,848,658 cleaned flight records, and 6 airline/airport analytics queries executed to CSV.
-- Full writeup & findings: [`docs/hive-and-airline-airport-analytics.md`](docs/hive-and-airline-airport-analytics.md)
-- Generated CSV datasets: [`output/airline_airport/`](output/airline_airport/)
-  - `airline_delay_summary.csv` — Airline delay rankings and operating volume
-  - `airline_delay_by_year.csv` — Year-over-year carrier performance (2009 vs 2010)
-  - `airline_delay_causes.csv` — Root-cause delay minute decomposition
-  - `airport_origin_delays.csv` — Most congested departure airports
-  - `airport_dest_delays.csv` — Most congested arrival airports
-  - `airport_dep_vs_arr.csv` — Outbound vs inbound delay comparison
+Phase 6 of 10 complete: time, route, cancellation and weather analytics on Hive/YARN.
+- Full writeup & findings: [`docs/time-route-cancellation-weather-analytics.md`](docs/time-route-cancellation-weather-analytics.md)
+- Phase 5 Hive setup & airline/airport writeup: [`docs/hive-and-airline-airport-analytics.md`](docs/hive-and-airline-airport-analytics.md)
+- Generated CSV datasets:
+  - [`output/time_analysis/`](output/time_analysis/) — Delay by month, year-month, day of week, and departure hour
+  - [`output/route_analysis/`](output/route_analysis/) — Worst delayed routes and busiest routes
+  - [`output/cancellation_analysis/`](output/cancellation_analysis/) — Cancellation by reason, carrier, airport, and month
+  - [`output/weather_analysis/`](output/weather_analysis/) — Weather delay intensity by airport and monthly distribution
+  - [`output/airline_airport/`](output/airline_airport/) — Phase 5 airline and airport delay summaries
 
