@@ -1,0 +1,4 @@
+split_set,data_year,operated_flights,delayed_flights,delay_pct
+test,2010,6321388,1174884,18.59
+train,2009,5693875,1052851,18.49
+validation,2009,633102,117650,18.58

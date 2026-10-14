@@ -1,0 +1,43 @@
+Successfully copied 504B (transferred 2.05kB) to namenode:/tmp/01_create_split.hql
+/opt/hive-data/apache-hive-3.1.3-bin/bin/hive: line 351: ps: command not found
+/opt/hive-data/apache-hive-3.1.3-bin/bin/hive: line 351: ps: command not found
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive-data/apache-hive-3.1.3-bin/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop-3.2.1/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = 148f6ce0-7090-4ee8-8c27-e7884671fcf2
+
+Logging initialized using configuration in jar:file:/opt/hive-data/apache-hive-3.1.3-bin/lib/hive-common-3.1.3.jar!/hive-log4j2.properties Async: true
+Hive Session ID = a85bb8be-158a-4e37-817b-936ddabce69c
+OK
+Time taken: 0.479 seconds
+OK
+Time taken: 0.098 seconds
+Query ID = root_20261014095714_ebaff839-6c7d-42f7-b217-f392dacce118
+Total jobs = 3
+Launching Job 1 out of 3
+Number of reduce tasks is set to 0 since there's no reduce operator
+Starting Job = job_1791880720726_0057, Tracking URL = http://resourcemanager:8088/proxy/application_1791880720726_0057/
+Kill Command = /opt/hadoop-3.2.1/bin/mapred job  -kill job_1791880720726_0057
+Hadoop job information for Stage-1: number of mappers: 3; number of reducers: 0
+2026-10-14 09:57:24,970 Stage-1 map = 0%,  reduce = 0%
+2026-10-14 09:57:46,148 Stage-1 map = 9%,  reduce = 0%, Cumulative CPU 9.25 sec
+2026-10-14 09:57:50,328 Stage-1 map = 33%,  reduce = 0%, Cumulative CPU 13.21 sec
+2026-10-14 09:58:11,217 Stage-1 map = 67%,  reduce = 0%, Cumulative CPU 22.45 sec
+2026-10-14 09:58:26,721 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 30.53 sec
+2026-10-14 09:59:27,348 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 30.53 sec
+2026-10-14 10:00:27,894 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 30.53 sec
+2026-10-14 10:01:28,080 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 30.53 sec
+MapReduce Total cumulative CPU time: 30 seconds 530 msec
+Ended Job = job_1791880720726_0057
+Stage-3 is selected by condition resolver.
+Stage-2 is filtered out by condition resolver.
+Stage-4 is filtered out by condition resolver.
+Moving data to directory hdfs://namenode:9000/user/hive/warehouse/flightdb.db/.hive-staging_hive_2026-10-14_09-57-14_654_4795208443704304875-1/-ext-10002
+Moving data to directory hdfs://namenode:9000/user/hive/warehouse/flightdb.db/flights_split
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 3   Cumulative CPU: 30.53 sec   HDFS Read: 993699188 HDFS Write: 353591649 SUCCESS
+Total MapReduce CPU Time Spent: 30 seconds 530 msec
+OK
+Time taken: 254.119 seconds

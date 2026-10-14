@@ -1,0 +1,148 @@
+Successfully copied 1.61kB (transferred 3.58kB) to namenode:/tmp/02_build_model.hql
+/opt/hive-data/apache-hive-3.1.3-bin/bin/hive: line 351: ps: command not found
+/opt/hive-data/apache-hive-3.1.3-bin/bin/hive: line 351: ps: command not found
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hive-data/apache-hive-3.1.3-bin/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop-3.2.1/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Hive Session ID = 1e719cd8-8f54-4561-ba41-a60891fd6ac9
+
+Logging initialized using configuration in jar:file:/opt/hive-data/apache-hive-3.1.3-bin/lib/hive-common-3.1.3.jar!/hive-log4j2.properties Async: true
+Hive Session ID = c3ddfe91-8005-4087-a505-4328880ebee5
+OK
+Time taken: 0.53 seconds
+OK
+Time taken: 0.103 seconds
+Query ID = root_20261014100138_7a0ce03f-3e5c-48ef-b4f3-78d926ea501e
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1791880720726_0058, Tracking URL = http://resourcemanager:8088/proxy/application_1791880720726_0058/
+Kill Command = /opt/hadoop-3.2.1/bin/mapred job  -kill job_1791880720726_0058
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2026-10-14 10:01:51,450 Stage-1 map = 0%,  reduce = 0%
+2026-10-14 10:01:58,751 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 4.89 sec
+2026-10-14 10:02:07,174 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 6.66 sec
+MapReduce Total cumulative CPU time: 6 seconds 660 msec
+Ended Job = job_1791880720726_0058
+Moving data to directory hdfs://namenode:9000/user/hive/warehouse/flightdb.db/model_global
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 6.66 sec   HDFS Read: 353608465 HDFS Write: 36 SUCCESS
+Total MapReduce CPU Time Spent: 6 seconds 660 msec
+OK
+Time taken: 29.975 seconds
+OK
+Time taken: 0.033 seconds
+Query ID = root_20261014100208_0af90f0c-f0f2-48cd-a8c4-952a81f51caf
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks not specified. Estimated from input data size: 2
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1791880720726_0059, Tracking URL = http://resourcemanager:8088/proxy/application_1791880720726_0059/
+Kill Command = /opt/hadoop-3.2.1/bin/mapred job  -kill job_1791880720726_0059
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 2
+2026-10-14 10:02:20,222 Stage-1 map = 0%,  reduce = 0%
+2026-10-14 10:02:30,534 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 8.01 sec
+2026-10-14 10:02:37,880 Stage-1 map = 100%,  reduce = 50%, Cumulative CPU 11.65 sec
+2026-10-14 10:02:38,936 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 15.26 sec
+MapReduce Total cumulative CPU time: 15 seconds 260 msec
+Ended Job = job_1791880720726_0059
+Moving data to directory hdfs://namenode:9000/user/hive/warehouse/flightdb.db/model_l1
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 2   Cumulative CPU: 15.26 sec   HDFS Read: 353621687 HDFS Write: 1948646 SUCCESS
+Total MapReduce CPU Time Spent: 15 seconds 260 msec
+OK
+Time taken: 31.306 seconds
+OK
+Time taken: 0.025 seconds
+Query ID = root_20261014100240_25703c74-3859-4126-b757-a37d013317ee
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks not specified. Estimated from input data size: 2
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1791880720726_0060, Tracking URL = http://resourcemanager:8088/proxy/application_1791880720726_0060/
+Kill Command = /opt/hadoop-3.2.1/bin/mapred job  -kill job_1791880720726_0060
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 2
+2026-10-14 10:02:51,437 Stage-1 map = 0%,  reduce = 0%
+2026-10-14 10:03:01,726 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 6.92 sec
+2026-10-14 10:03:09,021 Stage-1 map = 100%,  reduce = 50%, Cumulative CPU 10.58 sec
+2026-10-14 10:03:10,072 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 13.89 sec
+MapReduce Total cumulative CPU time: 13 seconds 890 msec
+Ended Job = job_1791880720726_0060
+Moving data to directory hdfs://namenode:9000/user/hive/warehouse/flightdb.db/model_l2
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 2   Cumulative CPU: 13.89 sec   HDFS Read: 353620861 HDFS Write: 1057319 SUCCESS
+Total MapReduce CPU Time Spent: 13 seconds 890 msec
+OK
+Time taken: 31.115 seconds
+OK
+Time taken: 0.027 seconds
+Query ID = root_20261014100311_b3343522-e1e0-4b75-a6b0-9c5fa2f25b5a
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks not specified. Estimated from input data size: 2
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1791880720726_0061, Tracking URL = http://resourcemanager:8088/proxy/application_1791880720726_0061/
+Kill Command = /opt/hadoop-3.2.1/bin/mapred job  -kill job_1791880720726_0061
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 2
+2026-10-14 10:03:23,496 Stage-1 map = 0%,  reduce = 0%
+2026-10-14 10:03:31,719 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 5.61 sec
+2026-10-14 10:03:37,950 Stage-1 map = 100%,  reduce = 50%, Cumulative CPU 7.94 sec
+2026-10-14 10:03:38,999 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 9.83 sec
+MapReduce Total cumulative CPU time: 9 seconds 830 msec
+Ended Job = job_1791880720726_0061
+Moving data to directory hdfs://namenode:9000/user/hive/warehouse/flightdb.db/model_l3
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 2   Cumulative CPU: 9.83 sec   HDFS Read: 353619185 HDFS Write: 40521 SUCCESS
+Total MapReduce CPU Time Spent: 9 seconds 830 msec
+OK
+Time taken: 29.955 seconds
+OK
+Time taken: 0.022 seconds
+Query ID = root_20261014100341_603cabf2-3170-4767-a387-862a9fcda516
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks not specified. Estimated from input data size: 2
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1791880720726_0062, Tracking URL = http://resourcemanager:8088/proxy/application_1791880720726_0062/
+Kill Command = /opt/hadoop-3.2.1/bin/mapred job  -kill job_1791880720726_0062
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 2
+2026-10-14 10:03:52,381 Stage-1 map = 0%,  reduce = 0%
+2026-10-14 10:04:01,668 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 5.5 sec
+2026-10-14 10:04:07,879 Stage-1 map = 100%,  reduce = 50%, Cumulative CPU 7.67 sec
+2026-10-14 10:04:08,927 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 10.04 sec
+MapReduce Total cumulative CPU time: 10 seconds 40 msec
+Ended Job = job_1791880720726_0062
+Moving data to directory hdfs://namenode:9000/user/hive/warehouse/flightdb.db/model_l4
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 2   Cumulative CPU: 10.04 sec   HDFS Read: 353619191 HDFS Write: 3711 SUCCESS
+Total MapReduce CPU Time Spent: 10 seconds 40 msec
+OK
+Time taken: 29.346 seconds

@@ -1,0 +1,6 @@
+model_level,model_keys,flights_covered,min_p,avg_p_over_keys,max_p
+GLOBAL,1,5693875,0.1849,0.1849,0.1849
+L1 carrier+origin+dest+month+hour_bucket,51512,2966427,0.0,0.1821,0.913
+L2 carrier+origin+month+hour_bucket,30028,5177163,0.0,0.1816,0.8421
+L3 origin+hour_bucket,1201,5693449,0.0,0.178,0.541
+L4 carrier+hour_bucket,103,5693860,0.015,0.1855,0.3457

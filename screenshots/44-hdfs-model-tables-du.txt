@@ -1,0 +1,6 @@
+337.2 M  674.4 M  /user/hive/warehouse/flightdb.db/flights_split
+36       72       /user/hive/warehouse/flightdb.db/model_global
+1.9 M    3.7 M    /user/hive/warehouse/flightdb.db/model_l1
+1.0 M    2.0 M    /user/hive/warehouse/flightdb.db/model_l2
+39.6 K   79.1 K   /user/hive/warehouse/flightdb.db/model_l3
+3.6 K    7.2 K    /user/hive/warehouse/flightdb.db/model_l4

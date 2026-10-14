@@ -1,0 +1,5 @@
+Total Nodes:3
+         Node-Id	     Node-State	Node-Http-Address	Number-of-Running-Containers
+6cb2f39cce7e:43953	        RUNNING	6cb2f39cce7e:8042	                           0
+e8fa0dbb44aa:41485	        RUNNING	e8fa0dbb44aa:8042	                           0
+6cb2f39cce7e:44715	           LOST	6cb2f39cce7e:8042	                           0

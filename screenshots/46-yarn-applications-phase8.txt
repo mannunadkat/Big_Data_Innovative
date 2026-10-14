@@ -1,0 +1,125 @@
+Total number of applications (application-types: [], states: [NEW, NEW_SAVING, SUBMITTED, ACCEPTED, RUNNING, FINISHED, FAILED, KILLED] and tags: []):76
+                Application-Id	    Application-Name	    Application-Type	      User	     Queue	             State	       Final-State	       Progress	                       Tracking-URL
+application_1791880720726_0063	SELECT split_set,
+       data_ye...data_year (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0063
+application_1791880720726_0062	CREATE TABLE model_l4 STORED AS TEXTFIL...30 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0062
+application_1791880720726_0061	CREATE TABLE model_l3 STORED AS TEXTFIL...30 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0061
+application_1791880720726_0060	CREATE TABLE model_l2 STORED AS TEXTFIL...30 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0060
+application_1791880720726_0067	SELECT * FROM (
+  SELECT 'L1 c...model_level (Stage-4)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0067
+application_1791880720726_0066	SELECT * FROM (
+  SELECT 'L1 c...model_level (Stage-3)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0066
+application_1791880720726_0065	SELECT * FROM (
+  SELECT 'L1 c...model_level (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0065
+application_1791880720726_0064	SELECT split_set,
+       data_ye...data_year (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0064
+application_1791880720726_0071	SELECT carrier, hour_bucket, n...hour_bucket (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0071
+application_1791880720726_0070	SELECT * FROM (
+  SELECT 'L1 c...model_level (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0070
+application_1791880720726_0069	SELECT * FROM (
+  SELECT 'L1 c...model_level (Stage-6)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0069
+application_1791880720726_0068	SELECT * FROM (
+  SELECT 'L1 c...model_level (Stage-5)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0068
+application_1791880720726_0074	SELECT carrier, origin, dest, flight_mo...10 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0074
+application_1791880720726_0073	SELECT carrier, origin, dest, flight_mo...10 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0073
+application_1791880720726_0072	SELECT origin, hour_bucket, n,...hour_bucket (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0072
+application_1791880720726_0015	SELECT origin AS airport,
+       COUNT(...25 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0015
+application_1791880720726_0014	SELECT f.carrier AS carrier,
+       C...DESC (Stage-3)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0014
+application_1791880720726_0013	SELECT f.carrier AS carrier,
+       C...DESC (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0013
+application_1791880720726_0012	SELECT f.carrier AS carrier,
+       C...DESC (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0012
+application_1791880720726_0019	SELECT o.airport AS airport,
+       o.d...25 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0019
+application_1791880720726_0018	SELECT dest AS airport,
+       COUNT(*)...25 (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0018
+application_1791880720726_0017	SELECT dest AS airport,
+       COUNT(*)...25 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0017
+application_1791880720726_0016	SELECT origin AS airport,
+       COUNT(...25 (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0016
+application_1791880720726_0023	SELECT `year` AS data_year, COUN...data_year (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0023
+application_1791880720726_0022	SELECT o.airport AS airport,
+       o.d...25 (Stage-3)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0022
+application_1791880720726_0021	SELECT o.airport AS airport,
+       o.d...25 (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0021
+application_1791880720726_0020	SELECT o.airport AS airport,
+       o.d...25 (Stage-4)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0020
+application_1791880720726_0027	SELECT `year` AS data_year,
+    ...month_num (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0027
+application_1791880720726_0026	SELECT flight_month AS month_num...month_num (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0026
+application_1791880720726_0025	SELECT flight_month AS month_num...month_num (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0025
+application_1791880720726_0024	SELECT `year` AS data_year, COUN...data_year (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0024
+application_1791880720726_0003	SELECT `year` AS data_year, COUN...data_year (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0003
+application_1791880720726_0002	   flight-clean-2010	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0002
+application_1791880720726_0001	   flight-clean-2009	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0001
+application_1791880720726_0007	SELECT f.carrier AS carrier,
+       C...DESC (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0007
+application_1791880720726_0006	SELECT `year` AS data_year, COUN...data_year (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0006
+application_1791876482993_0002	   flight-clean-2009	           MAPREDUCE	      root	   default	            KILLED	            KILLED	           100%	http://resourcemanager:8088/cluster/app/application_1791876482993_0002
+application_1791880720726_0005	SELECT `year` AS data_year, COUN...data_year (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0005
+application_1791876482993_0001	          word count	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791876482993_0001
+application_1791880720726_0004	SELECT `year` AS data_year, COUN...data_year (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0004
+application_1791880720726_0011	SELECT f.carrier AS carrier,
+   ...data_year (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0011
+application_1791880720726_0010	SELECT f.carrier AS carrier,
+   ...data_year (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0010
+application_1791880720726_0009	SELECT f.carrier AS carrier,
+       C...DESC (Stage-3)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0009
+application_1791880720726_0008	SELECT f.carrier AS carrier,
+       C...DESC (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0008
+application_1791880720726_0047	SELECT origin AS airport,
+       COUNT(...25 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0047
+application_1791880720726_0046	SELECT flight_month AS month_num...month_num (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0046
+application_1791880720726_0045	SELECT flight_month AS month_num...month_num (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0045
+application_1791880720726_0044	SELECT origin AS airport,
+       COUNT(...25 (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0044
+application_1791880720726_0051	SELECT `year` AS data_year, COUN...data_year (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0051
+application_1791880720726_0050	SELECT flight_month AS month_num...month_num (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0050
+application_1791880720726_0049	SELECT flight_month AS month_num...month_num (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0049
+application_1791880720726_0048	SELECT origin AS airport,
+       COUNT(...25 (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0048
+application_1791880720726_0055	SELECT `year` AS data_year, COUN...data_year (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0055
+application_1791880720726_0054	SELECT carrier,
+       `year`...flight_month (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0054
+application_1791880720726_0053	 carrier-month-delay	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0053
+application_1791880720726_0052	SELECT `year` AS data_year, COUN...data_year (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0052
+application_1791880720726_0059	CREATE TABLE model_l1 STORED AS TEXTFIL...30 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0059
+application_1791880720726_0058	CREATE TABLE model_global STORED A...'train' (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0058
+application_1791880720726_0057	CREATE TABLE flights_split
+STORED AS TEX...0 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0057
+application_1791880720726_0056	SELECT `year` AS data_year, COUN...data_year (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0056
+application_1791880720726_0031	SELECT t.dep_hour AS dep_hour,
+  ...dep_hour (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0031
+application_1791880720726_0030	SELECT t.day_of_week AS day_num,
+ ...day_num (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0030
+application_1791880720726_0029	SELECT t.day_of_week AS day_num,
+ ...day_num (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0029
+application_1791880720726_0028	SELECT `year` AS data_year,
+    ...month_num (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0028
+application_1791880720726_0035	SELECT origin,
+       dest,
+       CONC...25 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0035
+application_1791880720726_0034	SELECT origin,
+       dest,
+       CONC...25 (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0034
+application_1791880720726_0033	SELECT origin,
+       dest,
+       CONC...25 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0033
+application_1791880720726_0032	SELECT t.dep_hour AS dep_hour,
+  ...dep_hour (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0032
+application_1791880720726_0039	SELECT t.cancellation_code AS cancell...DESC (Stage-3)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0039
+application_1791880720726_0038	SELECT t.cancellation_code AS cancell...DESC (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0038
+application_1791880720726_0037	SELECT t.cancellation_code AS cancell...DESC (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0037
+application_1791880720726_0036	SELECT origin,
+       dest,
+       CONC...25 (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0036
+application_1791880720726_0043	SELECT origin AS airport,
+       COUNT(...25 (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0043
+application_1791880720726_0042	SELECT f.carrier AS carrier,
+       C...DESC (Stage-3)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0042
+application_1791880720726_0041	SELECT f.carrier AS carrier,
+       C...DESC (Stage-2)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://e8fa0dbb44aa:19888/jobhistory/job/job_1791880720726_0041
+application_1791880720726_0040	SELECT f.carrier AS carrier,
+       C...DESC (Stage-1)	           MAPREDUCE	      root	   default	          FINISHED	         SUCCEEDED	           100%	http://6cb2f39cce7e:19888/jobhistory/job/job_1791880720726_0040
