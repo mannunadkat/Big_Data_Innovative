@@ -1,0 +1,3 @@
+split_set,data_year,scored_rows,delayed_flights
+test,2010,6321388,1174884
+validation,2009,633102,117650

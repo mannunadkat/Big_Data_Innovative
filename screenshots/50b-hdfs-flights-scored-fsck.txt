@@ -1,0 +1,47 @@
+FSCK started by root (auth:SIMPLE) from /172.18.0.8 for path /user/hive/warehouse/flightdb.db/flights_scored at Wed Oct 14 11:29:37 UTC 2026
+/user/hive/warehouse/flightdb.db/flights_scored <dir>
+/user/hive/warehouse/flightdb.db/flights_scored/000000_0 135349347 bytes, replicated: replication=2, 2 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073743511_2687 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+1. BP-1903237011-172.18.0.2-1791402891331:blk_1073743512_2688 len=1131619 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK], DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK]]
+
+/user/hive/warehouse/flightdb.db/flights_scored/000001_0 140767489 bytes, replicated: replication=2, 2 block(s):  OK
+0. BP-1903237011-172.18.0.2-1791402891331:blk_1073743510_2686 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+1. BP-1903237011-172.18.0.2-1791402891331:blk_1073743513_2689 len=6549761 Live_repl=2  [DatanodeInfoWithStorage[172.18.0.3:9866,DS-f599279b-5e02-469a-be7e-cdbea85ac33d,DISK], DatanodeInfoWithStorage[172.18.0.5:9866,DS-3d52de3f-90dd-4e15-b28a-aca084df41d8,DISK]]
+
+
+Status: HEALTHY
+ Number of data-nodes:	2
+ Number of racks:		1
+ Total dirs:			1
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	276116836 B
+ Total files:	2
+ Total blocks (validated):	4 (avg. block size 69029209 B)
+ Minimally replicated blocks:	4 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	2
+ Average block replication:	2.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+FSCK ended at Wed Oct 14 11:29:37 UTC 2026 in 12 milliseconds
+
+
+The filesystem under path '/user/hive/warehouse/flightdb.db/flights_scored' is HEALTHY

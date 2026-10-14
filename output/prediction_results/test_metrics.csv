@@ -1,0 +1,2 @@
+tp,fp,fn,tn,test_rows,accuracy,prec,recall,f1,test_delay_pct,baseline_accuracy,baseline_f1_always_delayed,lift
+742226,2544707,432658,2601797,6321388,0.529,0.2258,0.6317,0.3327,18.59,0.8141,0.3135,1.215

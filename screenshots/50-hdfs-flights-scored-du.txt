@@ -1,0 +1,2 @@
+129.1 M  258.2 M  /user/hive/warehouse/flightdb.db/flights_scored/000000_0
+134.2 M  268.5 M  /user/hive/warehouse/flightdb.db/flights_scored/000001_0
