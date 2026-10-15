@@ -13,7 +13,7 @@ The objective of this project is to build an end-to-end, big data analytics and 
 
 ## 2. Dataset and Cleaning Rules
 - **Dataset Name**: US Department of Transportation (DOT) Bureau of Transportation Statistics (BTS) Airline On-Time Performance dataset.
-- **Source**: US DOT / BTS database (referenced in [`dataset/raw/DATASET_SOURCE.md`](../dataset/raw/DATASET_SOURCE.md)).
+- **Source**: US DOT / BTS database: https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018 (only the files `2009.csv` and `2010.csv` from that dataset were used; referenced in [`dataset/raw/DATASET_SOURCE.md`](../dataset/raw/DATASET_SOURCE.md)).
 - **Ingested Years & Row Counts** (derived from [`screenshots/26-hive-partition-rowcounts.txt`](../screenshots/26-hive-partition-rowcounts.txt)):
   - **Year 2009**: 6,414,015 raw records (87,038 cancelled, 1,170,501 delayed, 6,326,977 operated).
   - **Year 2010**: 6,434,643 raw records (113,255 cancelled, 1,174,884 delayed, 6,321,388 operated).

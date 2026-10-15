@@ -46,7 +46,7 @@ flowchart LR
 
 ## Quick Start
 1. **Prerequisites**: Docker & Docker Compose installed; at least 10–15 GB free disk space.
-2. **Data Placement**: Place yearly raw CSVs (`2009.csv`, `2010.csv`) inside `dataset/raw/`.
+2. **Data Placement**: Place yearly raw CSVs (`2009.csv`, `2010.csv`) from https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018 (only files `2009.csv` and `2010.csv` from that dataset were used) inside `dataset/raw/`.
 3. **Execute Pipeline**:
 ```bash
 # Start cluster
@@ -70,7 +70,7 @@ Query delay risk for any flight schedule using the CLI predictor backed by Hive 
 
 ## Repository Structure
 - `config/` — Hadoop XML configurations (`core-site.xml`, `hdfs-site.xml`, `yarn-site.xml`, `hadoop.env`, `docker-compose.yml`)
-- `dataset/` — Raw and cleaned dataset references (`dataset/raw/DATASET_SOURCE.md`)
+- `dataset/` — Raw and cleaned dataset references ([`dataset/raw/DATASET_SOURCE.md`](dataset/raw/DATASET_SOURCE.md): https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018; only `2009.csv` and `2010.csv` were used)
 - `docs/` — Architecture notes, evidence index, demo script, project reports, and data dictionary
 - `output/` — Analytics results, MapReduce outputs, prediction evaluations, and generated charts
 - `pipeline/` — End-to-end pipeline runner (`run_pipeline.sh`) and documentation
@@ -94,11 +94,10 @@ Query delay risk for any flight schedule using the CLI predictor backed by Hive 
 
 ## Team and Contributions
 - **Mann** (GitHub: `mannunadkat`)
-- **Teammate (name to be added)**
+- **Het Pandya**
 
 Contributions are recorded in the GitHub commit history of this repository:
 - `mannunadkat <unadkatmann@gmail.com>`: 25 commits across 5 distinct days (cluster setup, HDFS ingestion, MapReduce cleaning, Hive analytics, Java MapReduce job, prediction model, scoring, evaluation, chart generation, orchestrator, and documentation).
-- Per the team: Teammate name and additional collaborative contributions to be filled in prior to final submission.
 
 ## Status
 Phase 10 of 10 complete: project finished.
